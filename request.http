@@ -1,0 +1,10 @@
+GET http://localhost:8000/api/test
+
+###
+PUT http://localhost:8000/api/admin/blog/update/107
+Content-Type: application/json
+
+{
+  "text": "adfasdf",
+  "subject": "asdfasdfasdf"
+}
